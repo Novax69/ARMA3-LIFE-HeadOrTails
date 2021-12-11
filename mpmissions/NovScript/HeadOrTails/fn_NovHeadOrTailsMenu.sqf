@@ -28,9 +28,9 @@ if(_mode isEqualTo 1) then {
 	_ammount = _answerArray select 2; // Montant Gagné ou perdu
 	_playerBetted = _answerArray select 3; // Ce que le joueur à parrié
 	if(_result isEqualTo _playerBetted) then {
-		CONTROL(690100,690110) ctrlSetStructuredText parseText format[localize "STR_NOV_Hot_Win", (_ammount) call retour_formatage_chiffre_sfp, _answer];
+		CONTROL(690100,690110) ctrlSetStructuredText parseText format[localize "STR_NOV_Hot_Win", (_ammount) call life_fnc_numberText, _answer];
 	} else {
-		CONTROL(690100,690110) ctrlSetStructuredText parseText format[localize "STR_NOV_HoT_Lost", (_ammount) call retour_formatage_chiffre_sfp, _answer];
+		CONTROL(690100,690110) ctrlSetStructuredText parseText format[localize "STR_NOV_HoT_Lost", (_ammount) call life_fnc_numberText, _answer];
 	};
 } else {
 	_comboControl = findDisplay 690100 displayCtrl 690108; //Combo
@@ -45,4 +45,4 @@ if(_mode isEqualTo 1) then {
 
 
 // Message de règles
-CONTROL(690100,690111) ctrlSetStructuredText parseText format[localize "STR_NOV_HoT_Rules",(_multiplier) call retour_formatage_chiffre_sfp];
+CONTROL(690100,690111) ctrlSetStructuredText parseText format[localize "STR_NOV_HoT_Rules",(_multiplier) call life_fnc_numberText];

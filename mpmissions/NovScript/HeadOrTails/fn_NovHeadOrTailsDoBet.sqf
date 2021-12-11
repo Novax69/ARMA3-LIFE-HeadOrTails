@@ -22,7 +22,7 @@ if(_maxBetEnabled isEqualTo 1) then {
 	if(_mise > _maxBet) then { _breakCondition = true } else { _breakCondition = false };
 };
 
-if(_breakCondition) exitWith {hint format [localize "STR_NOV_HoT_MaxBetReached",(_maxBet) call retour_formatage_chiffre_sfp]};
+if(_breakCondition) exitWith {hint format [localize "STR_NOV_HoT_MaxBetReached",(_maxBet) call life_fnc_numberText]};
 
 if(_mise <= 0) exitWith {};
 if(_mise > CASH) exitWith {hint localize "STR_NOV_HoT_NotEnoughCash"};

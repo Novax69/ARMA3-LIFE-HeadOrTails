@@ -1,12 +1,9 @@
-class Life_Client_Core {
-    tag = "life";
-
-    //Add inside this class Here
+// Add if not exist
+class Novax_Client_Core {
+    tag = "nov";
     class NovScriptHoT {
         file = "NovScript\HeadOrTails";
         class NovHeadOrTailsDoBet {};
         class NovHeadOrTailsMEnu {};
-
-    };
 
 };

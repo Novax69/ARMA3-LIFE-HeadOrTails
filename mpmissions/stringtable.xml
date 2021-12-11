@@ -1,0 +1,21 @@
+<!-- HeadOrTails -->
+    <Key ID="STR_NOV_HoT_Rules">
+        <Original>Chose a side of the coin and put an ammount of cash, if you win, your cash get multiplied by %1</Original>
+        <French>Choisissez une face et une mise, si vous gagner, vos gains sont multipliés par %1</French>
+    </Key>
+    <Key ID="STR_NOV_HoT_Win">
+        <Original>Congrats you won : %1€ by betting %2</Original>
+        <French>Félicitation vous avez gagné : %1€ en parriant %2</French>
+    </Key>
+    <Key ID="STR_NOV_HoT_Lost">
+        <Original>Vous venez de perdre %1€, le résultat était %2</Original>
+        <French>Vous venez de perdre %1€, le résultat était %2</French>
+    </Key>
+    <Key ID="STR_NOV_HoT_NotEnoughCash">
+        <Original>You can't bet that much</Original>
+        <French>Tu n'as pas assez d'argent sur toi pour parier ce montant</French>
+    </Key>
+    <Key ID="STR_NOV_HoT_MaxBetReached">
+        <Original>You can't bet more than %1€</Original>
+        <French>Tu ne peu pas parier plus de %1€</French>
+    </Key>

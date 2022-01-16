@@ -6,4 +6,5 @@ class Novax_Client_Core {
         class NovHeadOrTailsDoBet {};
         class NovHeadOrTailsMEnu {};
 
+    };
 };
